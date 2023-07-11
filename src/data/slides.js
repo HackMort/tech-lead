@@ -13,10 +13,8 @@ export const slides = [
       <p class="mb-4">A Tech Lead is a Software Developer who is responsible for leading a team of developers and ensures the quality of the technical products.</p>
       <h3 class="text-xl font-bold">Conclusion:</h3>
       <p>A Tech Lead stablish the technical vission and also work with the team to acomplish the main goal. It's also a common thing that the Tech Lead also acquires some of the skills that you would find on some other different roles such as: Team Lead, Architect, Engineering Manager. The difference is that the Tech Lead does not stop coding, but the amount of time spending writing code it decreases.</p>`,
-    image:
-      'https://media.istockphoto.com/id/1255635032/vector/doodle-sketch-question-marks-set-inside-speech-bubbles.jpg?s=612x612&w=0&k=20&c=MUO3m5gx33HeX68MGzlULDKos_96l3BHd4zMmOmGmUo=',
-    featImg:
-      'https://health.wyo.gov/wp-content/uploads/2017/05/man-with-question-mark.jpg'
+    image: '/images/what-is-it.jpg',
+    featImg: '/images/what-is-it-2.jpg'
   },
   {
     id: 'history',
@@ -37,10 +35,8 @@ export const slides = [
         <li>Make a bigger impact.</li>
       </ul>
       `,
-    image:
-      'https://historytimetv.com/wp-content/uploads/2022/11/HistoryTimeLogo_OnBlackBackground.png',
-    featImg:
-      'https://www.dundryprimary.co.uk/wp-content/uploads/2021/11/istockphoto-1092170968-612x612-1.jpg'
+    image: '/images/history.png',
+    featImg: '/images/history-2.jpg'
   },
   {
     id: 'responsabilities',
@@ -61,10 +57,8 @@ export const slides = [
       <li>Mentoring team members.</li>
       <li>Saying, <strong>"Thank you"</strong> to the team</li>
     </ul>`,
-    image:
-      'https://www.insperity.com/wp-content/uploads/Employee-Related_To-Dos1200x600-1024x538.png',
-    featImg:
-      'https://m.economictimes.com/thumb/msid-68436559,width-1200,height-900,resizemode-4,imgsize-270775/opportunity-getty.jpg'
+    image: '/images/responsabilities.webp',
+    featImg: '/images/responsabilities-2.jpg'
   },
   {
     id: 'pros-cons',
@@ -100,10 +94,8 @@ export const slides = [
       </li>
       <li>Sometimes it's stressful because it's a lot of responsibility. Eventually, you should learn how to handle all that.</li>
     </ul>`,
-    image:
-      'https://calmack.com/wp-content/uploads/2019/11/pros-and-cons-career-in-court-reporting-denver-co.png',
-    featImg:
-      'https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/01/11134324/pros-and-cons.png'
+    image: '/images/pros-and-cons.png',
+    featImg: '/images/pros-and-cons-2.png'
   },
   {
     id: 'mistakes',
@@ -123,16 +115,14 @@ export const slides = [
       <li>Not Knowing Your People.</li>
       <li>Giving a bad example.</li>
     </ul>`,
-    image:
-      'https://cdn.gloveworx.com/images/9_26_mistakes.2e16d0ba.fill-1600x900.jpg',
-    featImg:
-      'https://englishclassviaskype.com/wp-content/uploads/2019/03/Common-mistakes-in-English-to-avoid.png'
+    image: '/images/mistakes.jpg',
+    featImg: '/images/mistakes-2.png'
   },
   {
     id: 'key-features',
     title: 'Key Features',
     description: `
-    <img src="https://blog.talentoit.org/images/TechLeadCircles-2-1024x769.png" alt="Key Features" class="w-full  mb-4">
+    <img src="/images/tech-lead-role.png" alt="Key Features" class="w-full  mb-4">
     <ul class="list-disc ml-5 mb-4">
         <li>Understand that sometimes you need to let others lead.</li>
         <li>Not a full time codeer but still coding.</li>
@@ -147,18 +137,14 @@ export const slides = [
         <li>Knows about Tech, Product, Business and People.</li>
       </ul>
       `,
-    image:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image_1_mpS2K9q.width-1600.format-webp.webp',
-    featImg:
-      'https://static.semrush.com/blog/uploads/media/04/5c/045c59a82bed12b0a778c9e6e86c583c/serp-features-guide.svg'
+    image: '/images/key-features.webp',
+    featImg: '/images/key-features-2.svg'
   },
   {
     id: 'q-and-a',
     title: 'Questions & Answers',
     description: 'Now is the time to ask questions and get answers.',
-    image:
-      'https://www.searchenginejournal.com/wp-content/uploads/2020/03/how-to-make-compelling-qa-videos-to-build-trust-in-your-brand-5e676591b8606.png',
-    featImg:
-      'https://race.agency/wp-content/uploads/2014/07/Questions-and-answers_public-relations-agency_media-relations.jpg'
+    image: '/images/q-and-a.png',
+    featImg: '/images/q-and-a-2.jpg'
   }
 ]
