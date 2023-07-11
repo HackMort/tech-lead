@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Title from "../components/Title.astro";
+import { slides } from "../data/slides.js";
+const { slide } = Astro.params;
+const info = slides.find((s) => s.id === slide);
+const title = "The Role of a Tech Lead";
+if (!info) {
+  return Astro.redirect("/404");
+}
+---
+
+<Layout title={`Slide: ${info.title}`}>
+  <main class="m-auto max-w-6xl">
+    <div class="grid md:grid-cols-[500px_1fr] gap-x-8 mt-20">
+      <div class="flex flex-col">
+        <picture>
+          <img
+            class="w-full h-auto"
+            src={info.featImg ? info.featImg : info.image}
+            alt={info.title}
+            style={`view-transition-name: slide-${info.id}`}
+          />
+        </picture>
+        <a href="/" class="text-xl font-bold mt-5 block text-center">
+          &larr; Back</a
+        >
+      </div>
+      <aside>
+        <h1 class="text-5xl font-bold mb-4" set:html={info.title} />
+        <Fragment set:html={info.description} />
+      </aside>
+    </div>
+  </main>
+</Layout>
