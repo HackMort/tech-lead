@@ -3,7 +3,6 @@ export const slides = [
     id: 'what-is-it',
     title: 'What is It?',
     description: `
-      <h3 class="text-2xl font-bold mb-4">What exactly is a Tech Lead?</h3>
       <h3 class="text-xl font-bold">Definition 1:</h3>
       <p class="mb-4">A Tech Lead is a Software Developer who is responsible for ensuring the quality of the technical output of their team is as high as it can be.</p>
       <p>
