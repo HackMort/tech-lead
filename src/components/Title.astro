@@ -1,0 +1,13 @@
+---
+type Props = {
+  text: string;
+};
+const { text } = Astro.props;
+---
+
+<h1
+  class="text-5xl font-bold text-center py-8"
+  style={`view-animation-name: title-${text}`}
+>
+  {text}
+</h1>
