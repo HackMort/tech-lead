@@ -1,0 +1,24 @@
+---
+export interface Props {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+}
+const { id, title, description, image } = Astro.props;
+---
+
+<li>
+  <a
+    class="hover:scale-105 block bg-white transition-all hover:contrast-125 rounded overflow-hidden"
+    href={`/${id}`}
+  >
+    <span class="block text-center font-bold mb-4">{title}</span>
+    <img
+      class="h-full object-cover w-full max-w-full"
+      src={image}
+      alt={title}
+      style={`view-transition-name: slide-${id}; height: 178px; width: 100%;`}
+    />
+  </a>
+</li>
