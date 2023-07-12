@@ -71,12 +71,6 @@ export const slides = [
       <li>You have a complete understanding of how the software system works and how to apply changes into that with minimal risk. You can replicate it to other systems now.</li>
       <li>You become a good communicator because you're responsible for understanding requirements and explaining technical solutions.</li>
       <li>You reach some level of competency (it depends on the case) in various areas of software development like: <strong>System Desing, Operations, Quality Engineering & Engineering management.</strong></li>
-      <li>Waiting to have all the data before making any decision.</li>
-      <li>Not being available to the team.</li>
-      <li>Being Misaligned With Executive Management</li>
-      <li>Letting Pride, Ego, and Narcissism Guide Decisions.</li>
-      <li>Not Knowing Your People.</li>
-      <li>Giving a bad example.</li>
     </ul>
     <h3 class="text-xl font-bold mb-4">Cons:</h3>
     <ul class="list-disc ml-5 mb-4">
